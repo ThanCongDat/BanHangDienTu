@@ -5,7 +5,7 @@
         public int ID { get; set; }
         public int UserID { get; set; }
         public UserViewModel User { get; set; }
-        public ICollection<ProductViewModel> Products { get; set; }
+        public IList<ProductViewModel> Products { get; set; }
         public decimal TotalPrice { get; set; }
     }
 }
